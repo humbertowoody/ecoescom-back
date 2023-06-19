@@ -44,7 +44,11 @@ async function bootstrap() {
       .setDescription(
         'This is our Swagger definition for our API, in here you can look at all the endpoints available and the overall structure of the API. If you need more information dont hesitate to reach out to us.',
       )
-      .setContact('EcoESCOM - Equipo 2', 'ecoescom.lat', 'api@ecoescom.lat')
+      .setContact(
+        'EcoESCOM - Equipo 2',
+        'https://ecoescom.bio',
+        'api-inquiries@ecoescom.bio',
+      )
       .setVersion('1.0')
       .addBearerAuth()
       .addTag(
