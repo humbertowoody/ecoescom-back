@@ -41,18 +41,9 @@ import { HttpErrorFilter } from './common/filter/http-error.filter';
         SWAGGER_ENABLED: Joi.boolean().default(false),
         SWAGGER_USER: Joi.string().default('admin'),
         SWAGGER_PASSWORD: Joi.string().default('admin!'),
-        // Front-End configuration.
-        WEBAPP_URL: Joi.string().uri().default('https://valu.mx'),
         // JWT Secret.
         JWT_SECRET: Joi.string().min(10).default('JWTSecret123!'),
         JWT_EXPIRATION: Joi.string().default('300'),
-        // Mail configuration.
-        MAIL_FROM: Joi.string().email().default('valu@fetchbug.com'),
-        MAIL_PROVIDER: Joi.string()
-          .valid('AWS', 'MAILTRAP')
-          .default('MAILTRAP'),
-        MAILTRAP_USER: Joi.string().optional().default('95bb8e0c6109d9'),
-        MAILTRAP_PASSWORD: Joi.string().optional().default('42ed060ccf2bef'),
       }),
     }),
     TypeOrmModule.forRootAsync({
