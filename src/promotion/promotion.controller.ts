@@ -27,6 +27,9 @@ import { PromotionEntity } from './entities/promotion.entity';
   },
   routes: {
     only: ['getManyBase', 'getOneBase', 'createOneBase', 'updateOneBase'],
+    createOneBase: {
+      decorators: [ApiBearerAuth(), UseGuards(JwtAuthGuard)],
+    },
     updateOneBase: {
       decorators: [ApiBearerAuth(), UseGuards(JwtAuthGuard)],
     },
