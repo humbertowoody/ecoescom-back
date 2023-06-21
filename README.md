@@ -1,3 +1,16 @@
+# EcoESCOM - Backend
+
+EcoESCOM es una plataforma de recompensas por realizar actividades de reciclaje en
+dónde los alumnos reciben créditos que podrán canjear por promociones y descuentos
+por parte del alumnado que ofrece algún producto o servicio.
+
+Este repositorio tiene todo el código de Backend necesario para operar EcoESCOM,
+todo está escrito en TypeScript usando el maravilloso NestJS.
+
+Humberto Alcocer.
+
+---
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
