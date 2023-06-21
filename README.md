@@ -5,7 +5,9 @@ dónde los alumnos reciben créditos que podrán canjear por promociones y descu
 por parte del alumnado que ofrece algún producto o servicio.
 
 Este repositorio tiene todo el código de Backend necesario para operar EcoESCOM,
-todo está escrito en TypeScript usando el maravilloso NestJS.
+todo está escrito en TypeScript usando el maravilloso NestJS. El cliente que
+ejecuta EcoESCOM haciendo uso de este servicio es [EcoESCOM - Web Application](https://github.com/humbertowoody/ecoescom-front)
+con la cual la plataforma cobra vida.
 
 Humberto Alcocer.
 
